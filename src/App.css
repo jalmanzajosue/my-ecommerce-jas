@@ -29,6 +29,7 @@
     align-items: center;
     gap:10px;
     background-color: red;
+    flex-grow: 1;
   }
   .children3{
     display: flex;
@@ -52,6 +53,10 @@
     padding: 2px;
   }
 
+nav{
+  flex-grow: 1;
+}
+
 .nav-container {
   display: flex;
 }
@@ -59,6 +64,7 @@
 .nav-container li {
   margin: 0 10px;
   list-style: none;
+  flex-grow: 1;
 }
 
 .nav-container li a {
